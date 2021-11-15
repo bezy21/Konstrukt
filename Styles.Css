@@ -28,6 +28,7 @@
     background-image: url(./images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
     
    
@@ -72,6 +73,7 @@
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 210px;
+    border: 2px solid red;
   }
   .container2 img {
     padding-top: 25px;
@@ -123,8 +125,9 @@
   }
   .image {
     display: flex;
-    flex: 0 1 50%;
+    margin-right: 210px;
     height: 80%;
+    border: 2px solid red;
   }
   .image img:not(:last-child) {
     margin-right: 19px;
@@ -140,6 +143,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
+    border: 2px solid red;
   }
   .ph3 p {
     font-family: "Open Sans";
@@ -147,6 +151,7 @@
     color: #48555b;
     font-style: normal;
     font-weight: bold;
+    border: 2px solid red;
   }
   .ph3 span {
     color: #00a4e5;
@@ -158,6 +163,7 @@
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 210px;
+    border: 2px solid red;
   }
   .OUR_CAP h2::before {
     content: "";
