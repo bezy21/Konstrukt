@@ -8,6 +8,7 @@
       margin: 0px;
       padding: 0px;
       max-width: 100%;
+     
       /* max-width: 1440px; */
     }
     .container { 
@@ -15,6 +16,7 @@
       border: 2px solid red;
       margin-left: 210px;
       margin-right: 210px;
+      margin-top: 50px;
     }
     .container_header { 
       padding: 0 15px;
@@ -120,15 +122,16 @@
     .ph3 {
       /* flex: 0 1 40%; */
       max-width: 401px;
+      border: 2px solid red;
     }
-    .ph3 h3 {
+    .ph3 h3 ,.servises-items h3 {
       margin-top: 30px;
       color: #48555b;
       font-family: "Open Sans";
       font-style: normal;
       font-weight: normal;
       font-size: 13px;
-      border: 2px solid red;
+
     }
     .ph3 p {
       font-family: "Open Sans";
@@ -154,7 +157,7 @@
       width: 50px;
       height: 2px;
       background: #00a4e5;
-      position: absolute;
+     
     
       bottom: -5px;
     }
@@ -174,13 +177,206 @@
       margin-right: 34.6px;
       width: 405px;
     }
-    .OUR_CAP button {
+     button {
       font-family: "Open Sans";
       font-style: normal;
       font-weight: bold;
-      font-size: 13px;
+      font-size: 12px;
       background: #00a4e5;
       color: white;
-      border: none;
-      padding: 11px 29px;
+     
+      padding: 13px 29px;
     }
+    .services {
+      border: 2px solid red;
+      
+      
+    }
+    .services-list {
+      display: flex;
+      list-style-type: none;
+      
+    }
+
+      .servises-items {
+            border: 2px solid red;
+      background: #FFFFFF;
+      border: 1px solid #E6E6E6;
+      box-sizing: border-box;
+      width: 295px;
+      height: 330px;
+      text-align: left;
+      margin: 28px;
+      padding: 23px;
+      
+    }
+  .servises-sub {
+   
+    width: 250px;
+    height: 92px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+
+align-items: center;
+color: #48555B;
+  }
+
+.town{
+  background-image: url(./images/town.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid red;
+  text-align: center;
+  margin: auto;
+
+height: 498.24px;
+}
+.town-text {
+ 
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+margin-top: 120px;
+margin-bottom: 35px;
+
+
+color: #48555B;
+width: 350px;
+}
+.newsletter {
+  height: 100px;
+  width:100%;
+  display: flex;
+  background-color: rgba(23, 24, 25, 1);
+}
+
+.newsletter-text {
+  width: 216px;
+height: 30px;
+margin-top: 30px;
+margin-left: 500px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: px;
+/* identical to box height */
+
+
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.846154px;
+
+color: #FFFFFF;
+
+}
+form input {
+  
+  margin: 30px 0px 0px 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  background: #ffffff;
+  color: white;
+ 
+  padding: 13px 29px;
+}
+.footer {
+  height: 300px;
+  width:100%;
+  display: flex;
+  background-color: rgba(23, 24, 25, 1);
+}
+.footer {
+  display: flex;
+  font-family: "Open Sans", "Arial, Helvetica, sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 20px;
+    list-style-type: none;
+    
+    
+}
+.COMPANY {
+  max-width: 300px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.COMPANY img, .COMPANY p {
+  margin-top: 20px;
+  
+}
+.b {
+  list-style-type: none;
+}
+
+.links {
+  margin-top: 20px;
+  margin-left: 70px;
+
+}
+.faq {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.blog {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.contact {
+  margin-top: 20px;
+  margin-left: 70px;
+
+}
+.contact p {
+  margin-top: 20px;
+}
+
+.social {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+h5 {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.846154px;
+
+color: #FFFFFF;
+}
+.info {
+  font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+
+/* or 227% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.846154px;
+
+color: #FFFFFF;
+margin-top: 15px;
+}
